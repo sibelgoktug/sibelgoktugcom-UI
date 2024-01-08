@@ -1,24 +1,123 @@
 body {
-    background-color: $bg_light;
+  background-color: $bg_light;
+}
+.container {
+  max-width: 1170px;
+}
+a {
+  text-decoration: none;
+  color: $text_black!important;
 }
 .navbar-nav {
-    .nav-link {
-        color: $text_black;
-        font-size: 1rem;
-        transition: .3s;
-        &:hover {
-            padding-top: 5px;
-            color: $text_blue!important;
-        }
+  .nav-link {
+    color: $text_black;
+    font-size: 1rem;
+    transition: 0.3s;
+    &:hover {
+      padding-top: 5px;
+      color: $text_blue !important;
     }
-    .nav-item {
-        &:first-child {
-            .nav-link {
-                color: $text_blue;
-            }
-        }
+  }
+  .nav-item {
+    &:first-child {
+      .nav-link {
+        color: $text_blue;
+      }
     }
-    @media (min-width: 992px) {
-        gap: 40px;
+  }
+  @media (min-width: 992px) {
+    gap: 40px;
+  }
+}
+.top-content {
+  margin-top: 50px;
+}
+.info-box-shadow {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 45px 47px;
+  background-color: $bg_white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 30px;
+  .img-box {
+    width: 224px;
+    height: 224px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px 0 30px 0;
+    flex: none;
+    img {
+      display: block;
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
     }
+  }
+  .info-location {
+    padding-top: 10px;
+    h4 {
+      color: $text_gray;
+      font-size: 0.875rem;
+      letter-spacing: 1px;
+      margin-bottom: 3px;
+    }
+    h1 {
+      font-size: 2.25rem;
+      line-height: 40px;
+      color: $text_dark;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 0.8125rem;
+      letter-spacing: 0.3px;
+    }
+    .about-btn {
+      opacity: 0.2;
+      transition: 0.3s;
+    }
+  }
+  &:hover {
+    .about-btn {
+      opacity: 1;
+    }
+  }
+}
+.flow-location {
+    background-color: $bg_white;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+.info-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 24px;
+  background-color: $bg_white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 30px;
+  .about-btn {
+    opacity: 0.2;
+    transition: 0.3s;
+  }
+  &:hover {
+    .about-btn {
+      opacity: 1;
+    }
+  }
+  .info-text {
+    small {
+      font-size: .6875rem;
+      color: $text_gray;
+      text-transform: uppercase;
+    }
+    p {
+      letter-spacing: 2px;
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+  }
 }
