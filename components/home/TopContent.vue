@@ -15,7 +15,7 @@
                   Merhaba, front-end developer olarak biriktirdiğim deneyimleri
                   bu blogda paylaşıyorum.
                 </p>
-                <div href="#" class="about-btn d-flex justify-content-end">
+                <div class="about-btn d-flex justify-content-end">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="46"
@@ -72,7 +72,7 @@
                       <small>Hakkımda daha fazlası</small>
                       <p class="mb-0">Hakkımda</p>
                     </div>
-                    <div href="#" class="about-btn">
+                    <div class="about-btn">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="46"
@@ -115,7 +115,7 @@
                       <small>Vitrin</small>
                       <p class="mb-0">Projelerim</p>
                     </div>
-                    <div href="#" class="about-btn">
+                    <div class="about-btn">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="46"

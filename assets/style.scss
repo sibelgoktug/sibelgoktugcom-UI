@@ -93,6 +93,7 @@ a {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 40px;
   padding: 24px;
@@ -118,6 +119,17 @@ a {
       letter-spacing: 2px;
       font-size: 1.25rem;
       font-weight: 500;
+    }
+  }
+}
+.social-media {
+  list-style: none;
+  a {
+    svg {
+      &:hover {
+        transition: all 1s ease-in-out;
+        filter: invert(50%) sepia(67%) saturate(2918%) hue-rotate(161deg) brightness(94%) contrast(101%)
+      }
     }
   }
 }

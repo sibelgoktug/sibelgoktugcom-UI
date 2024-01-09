@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  modules: ['nuxt-icon'],
   vite: {
     css: {
       preprocessorOptions: {
@@ -20,8 +21,7 @@ export default defineNuxtConfig({
       script: [
         { src: "~/js/bootstrap.js" },
         { src: "~/js/bootstrap.min.js" },
-        { src: "/js/bootstrap.bundle.min.js" },
-
+        { src: "~/js/bootstrap.bundle.min.js" },
       ],
     },
   },
