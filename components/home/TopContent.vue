@@ -55,9 +55,8 @@
               scrollamount="7"
               onmouseover="this.stop();"
               onmouseout="this.start();"
-              >innovate create inspire design &#8226; innovate create inspire
-              design &#8226; innovate create inspire design &#8226; innovate
-              create inspire design &#8226; innovate create inspire design
+              >Code your vision, build your future &#8226; Code your vision, build your future &#8226; Code your vision, build your future &#8226; Code your vision,
+              build your future &#8226; Code your vision, build your future
               &#8226;
             </marquee>
           </div>
@@ -69,10 +68,10 @@
                   <div
                     class="w-100 d-flex align-items-center justify-content-between"
                   >
-                  <div class="info-text d-flex flex-column">
-                    <small>Hakkımda daha fazlası</small>
-                    <p class="mb-0">Hakkımda</p>
-                  </div>
+                    <div class="info-text d-flex flex-column">
+                      <small>Hakkımda daha fazlası</small>
+                      <p class="mb-0">Hakkımda</p>
+                    </div>
                     <div href="#" class="about-btn">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
