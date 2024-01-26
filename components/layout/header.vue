@@ -29,7 +29,7 @@
                 <a class="nav-link" href="#">Hakkımda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Çalışmalarım</a>
+                <a class="nav-link" href="/calismalarim">Çalışmalarım</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">İletişim</a>
