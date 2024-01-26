@@ -126,9 +126,10 @@ a {
   list-style: none;
   a {
     svg {
+      transition: all 1s ease-in-out;
       &:hover {
         transition: all 1s ease-in-out;
-        filter: invert(50%) sepia(67%) saturate(2918%) hue-rotate(161deg) brightness(94%) contrast(101%)
+        padding-bottom: 10px;
       }
     }
   }
